@@ -33,6 +33,7 @@ To write an NS2 program to observe the performance of the network with Carrier S
 20. Stop the program.
 ## PROGRAM:
 
+~~~
 #Lan simulation – mac.tcl setns [new Simulator] #define color for data flows
 $ns color 1 blue
 $ns color 2 red
@@ -88,11 +89,14 @@ $nsat 7.0 "$ftp stop"
 $ns at 7.5 "$cbr stop"
 $ns at 8.0 "finish"
 $ns run
+~~~
 
 
 ## 📊 MODEL OUTPUT
 <img src="C:\Users\Latha\OneDrive\Pictures\Screenshots\code block 2.png" alt="Code block 2" width="200"/>
 
+## 📊  OUTPUT
+![510076262-4c3fe241-ee19-4a5a-9f17-512b7da4360c](https://github.com/user-attachments/assets/8b274652-8cd3-4103-af96-efb896c23aa1)
 
 ## 📝 MARK ALLOCATION
 
